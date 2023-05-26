@@ -1,0 +1,12 @@
+.transactionhistory {
+  border: solid 2px;
+  border-collapse: collapse;
+}
+
+th {
+  border: solid 2px black;
+  background-color: cornflowerblue;
+  width: 200px;
+  padding: 4px;
+  color: white;
+}

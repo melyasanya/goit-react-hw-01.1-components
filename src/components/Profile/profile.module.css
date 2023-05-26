@@ -1,0 +1,41 @@
+.profile {
+  width: 200px;
+  margin-top: 40px;
+  text-align: center;
+}
+.description {
+  background-color: white;
+  padding-bottom: 12px;
+  padding-top: 12px;
+}
+.name {
+  margin-bottom: 8px;
+  font-weight: 700;
+}
+.tag {
+  margin-top: 0px;
+  margin-bottom: 8px;
+}
+.location {
+  margin: 0px;
+}
+.stats {
+  background-color: aliceblue;
+  margin: 0px;
+  padding: 12px;
+  list-style: none;
+  display: flex;
+  gap: 8px;
+  justify-content: space-between;
+}
+.list {
+  display: flex;
+  flex-direction: column;
+}
+.avatar {
+  width: 50px;
+  border-radius: 50%;
+}
+.quantity {
+  font-weight: 700;
+}
