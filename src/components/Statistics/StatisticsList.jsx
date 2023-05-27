@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import css from './StatisticsList.module.css'
 
 const randColor = () =>  {
@@ -11,6 +12,10 @@ const StatisticsList = ({statsJson}) => {
   </li>
     })
 } 
+
+StatisticsList.propTypes = {
+  statsJson: PropTypes.object.isRequired
+}
 
 
 export default StatisticsList

@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import css from './TransactionsTable.module.css'
 
 export const TransactionTable = ({item}) => {
@@ -9,4 +10,8 @@ export const TransactionTable = ({item}) => {
         </tr>
       
     })
+}
+
+TransactionTable.propTypes = {
+  item: PropTypes.arrayOf(PropTypes.object).isRequired
 }

@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import { TransactionTable } from "./TransactionsTable"
 import css from './Transactions.module.css'
 
@@ -15,4 +16,8 @@ export const Transactions = ({items}) => {
     </tbody>
   
   </table>
+}
+
+Transactions.propTypes = {
+  stats: PropTypes.arrayOf(PropTypes.object).isRequired
 }

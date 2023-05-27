@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import css from './profile.module.css'
 
  const Profile = ({user}) => {return (<div className={css.profile}>
@@ -26,6 +27,10 @@ import css from './profile.module.css'
     </li>
   </ul>
 </div>)
+}
+
+Profile.propTypes = {
+  user: PropTypes.object.isRequired
 }
 
 export default Profile

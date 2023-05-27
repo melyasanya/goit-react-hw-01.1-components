@@ -1,5 +1,7 @@
+import PropTypes from 'prop-types';
 import StatisticsList from "./StatisticsList"
 import css from './statistics.module.css'
+
 
 const Statistics = ({stats}) => {
   
@@ -9,6 +11,10 @@ const Statistics = ({stats}) => {
 <StatisticsList statsJson={stats}/>
     </ul>
   </section>)
+}
+
+Statistics.propTypes = {
+  stats: PropTypes.array.isRequired
 }
 
 export default Statistics

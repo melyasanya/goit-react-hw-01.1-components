@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import css from './friendListItem.module.css'
 
 export const FriendsListItem = ({list}) => {
@@ -6,5 +7,9 @@ export const FriendsListItem = ({list}) => {
     <img className={css.avatar} src={avatar} alt="User avatar" width="48" />
     <p className={css.name}>{name}</p>
   </li>})
+}
+
+FriendsListItem.propTypes = {
+  list: PropTypes.array.isRequired
 }
 
