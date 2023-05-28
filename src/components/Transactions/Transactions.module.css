@@ -10,3 +10,17 @@ th {
   padding: 4px;
   color: white;
 }
+
+td {
+  border: solid 2px;
+  padding: 4px;
+  text-align: center;
+}
+
+.row:nth-child(2n) {
+  background-color: grey;
+}
+
+.row:nth-child(2n + 1) {
+  background-color: white;
+}
